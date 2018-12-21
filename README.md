@@ -1,4 +1,4 @@
-# Jekyll with foundation framework 
+# Jekyll with Zurb Foundation Framework 
 
 #### This is an updated/specialized version of this [jekyll-foundation](https://github.com/Foundation-for-Jekyll-sites/jekyll-foundation) repo. Thanks to [core77](https://github.com/core77)
 
