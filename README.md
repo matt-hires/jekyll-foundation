@@ -5,3 +5,7 @@
 
 Jekyll (v3.8) project with Zurb Foundation for Sites (v6.5.1, sass, webpack) and a build workflow with gulp.
 
+**Build status** 
+
+[![Build Status](https://travis-ci.com/matt-hires/jekyll-foundation.svg)](https://travis-ci.com/matt-hires/jekyll-foundation)
+
