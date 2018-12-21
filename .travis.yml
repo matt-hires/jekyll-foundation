@@ -12,7 +12,7 @@ node_js:
   - '6'
 
 before_install:
-- rvm install 2.2.3
+- rvm install 2.5.3
 - curl -o- -L https://yarnpkg.com/install.sh | bash
 
 before_script:
