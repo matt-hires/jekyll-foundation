@@ -1,0 +1,49 @@
+# Site settings
+language:               ""
+title:                  "Site Title"
+description:            "Site description"
+google-verification:    ""
+
+# Handling Reading
+include:
+  - ".htaccess"
+  - "_pages"
+
+exclude:
+  - "/assets/"
+  - "composer.json"
+  - "composer.lock"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "/gulp/"
+  - "gulpfile.js"
+  - "LICENSE.md"
+  - "Makefile"
+  - "node_modules"
+  - "npm-debug.log"
+  - "package.json"
+  - "README.md"
+  - "rev-manifest.json"
+  - "yarn.lock"
+  - "yarn-error.log"
+
+# Plugins
+# Add plugins in the Gemfile
+
+# Conversion
+incremental:      true
+
+# Serving
+# url:            ""
+# baseurl:        "" # does not include hostname
+
+# Outputting
+permalink:        "/blog/:year/:title/"
+paginate_path:    "/blog/page:num"
+paginate:         5
+
+compress_html:
+  ignore:
+    envs: [development]
+
+highlighter:      rouge
