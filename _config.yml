@@ -9,8 +9,11 @@ include:
   - ".htaccess"
   - "_pages"
 
+# keep in mind that jekyll is going to exclude this files in jekyll build task from gulp.
 exclude:
-  - "/assets/"
+  - "assets/js/lib/"
+  - "assets/scss/"
+  - "assets/js/app.js"
   - "composer.json"
   - "composer.lock"
   - "Gemfile"
@@ -26,6 +29,13 @@ exclude:
   - "rev-manifest.json"
   - "yarn.lock"
   - "yarn-error.log"
+  - "gulpfile.js"
+
+# if there are extra generated files (such as bundle.js from webpack or minified app.cs) we have to let
+# jekyll know about it, otherwise it will delete them
+keep_files:
+  - "assets/js/bundle.js"
+  - "assets/css/app.css"
 
 # Plugins
 # Add plugins in the Gemfile
