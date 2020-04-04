@@ -132,6 +132,11 @@ function server(done) {
   done();
 }
 
+function browserSyncReload(done) {
+  browserSync.reload();
+  done();
+}
+
 function watch() {
   gulp.watch(config.watch.pages, gulp.series('build', browserSyncReload));
   gulp.watch(config.watch.javascript, gulp.series(jsTask, browserSyncReload));

@@ -7,6 +7,7 @@ rev-manifest.json
 
 # Cache
 .sass-cache/
+.jekyll-cache/
 *.sassc
 *.scssc
 
