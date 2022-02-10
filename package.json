@@ -39,7 +39,7 @@
     "ionicons": "^5.0.1",
     "jquery": "^3.3.1",
     "js-yaml": "^3.13.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "require-dir": "^1.2.0",
     "vinyl-named": "^1.1.0",
     "webpack": "^4.29.6",
